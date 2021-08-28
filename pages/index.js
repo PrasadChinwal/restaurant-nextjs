@@ -47,8 +47,37 @@ export default function Home() {
                         />
                     </div>
                 </main>
+
                 <div className="bg-white max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                     <Dishes/>
+                </div>
+
+                <div id="online" className="bg-gray-50
+                    rounded-lg max-w-2xl py-12 px-4 mx-auto sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
+                >
+                    <h2 className="text-6xl text-white text-center font-bold">
+                        <span className="bg-gradient-to-r from-yellow-300 to-yellow-500 text-transparent bg-clip-text">
+                            Ready to order?
+                        </span>
+                    </h2>
+
+                    <div className="my-10 flex flex-col items-center content-center md:flex-wrap space-y-2">
+                        <a
+                            href="#"
+                            className="w-full md:w-1/2 flex items-center justify-center px-8 py-3
+                                        border border-transparent text-base font-medium rounded-md text-white
+                                        bg-yellow-600 hover:bg-yellow-700 md:py-4 md:text-lg md:px-10
+                                        transition duration-500 ease-in-out transform hover:-translate-y-1"
+                        >
+                            Order on UberEats
+                        </a>
+                        <a
+                            href="#"
+                            className="w-full md:w-1/2 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-yellow-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
+                        >
+                            Order Now
+                        </a>
+                    </div>
                 </div>
             </Layout>
         </>

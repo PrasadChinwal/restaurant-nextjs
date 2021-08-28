@@ -10,16 +10,16 @@ export default function Dishes() {
     </div>
     return (
         <>
-            <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
+            <div id="menu" className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
                 {data.map((product) => (
                     <div key={product.id}
                         className="relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden"
                     >
-                        <div className="aspect-w-3 aspect-h-4 bg-gray-200 hover:opacity-75 sm:aspect-none sm:h-96">
+                        <div className="aspect-w-3 aspect-h-4 bg-gray-200 sm:aspect-none sm:h-96">
                             <img
                                 src={product.imageSrc}
                                 alt={product.imageAlt}
-                                className="w-full h-full object-center object-cover sm:w-full sm:h-full"
+                                className="filter blur-xs hover:blur-0 w-full h-full object-center object-cover sm:w-full sm:h-full"
                             />
                         </div>
                         <div className="flex-1 p-4 space-y-2 flex flex-col">

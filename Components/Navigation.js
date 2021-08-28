@@ -1,10 +1,9 @@
-import {useState} from "react";
 import Link from 'next/link'
 
 const userNavigation = [
-    { name: 'Your Profile', href: '#' },
-    { name: 'Settings', href: '#' },
-    { name: 'Sign out', href: '#' },
+    { name: 'Menu', href: '#menu' },
+    { name: 'Online', href: '#online' },
+    { name: 'About', href: '#about' },
 ]
 
 function classNames(...classes) {
@@ -39,8 +38,10 @@ export default function Navigation({ preview, children }) {
                                     <a
                                         key={item.name}
                                         className={classNames(
-                                            item.current ? 'bg-yellow-100 text-yellow-600' : 'text-yellow-700 hover:bg-yellow-100 hover:text-yellow-700',
-                                            'px-3 py-2 rounded-md text-sm font-medium'
+                                            item.current ?
+                                                'bg-yellow-100 text-yellow-600' :
+                                                'text-yellow-700 hover:bg-yellow-100 hover:text-yellow-700',
+                                            'px-3 py-2 rounded-md text-sm font-medium',
                                         )}
                                         aria-current={item.current ? 'page' : undefined}
                                     >
