@@ -1,29 +1,25 @@
-# Next.js + Tailwind CSS Example
+# Restaurant Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is a demo of a restaurant application built with [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/). 
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+# Screenshots
+![Image 1](/screenshots/Screen-Shot-1.png)
 
-## Preview
+![Image 2](/screenshots/Screen-Shot-2.png)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+![Image 3](/screenshots/Screen-Shot-3.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+# Development
+- Clone this repository to your local machine
+- Install dependencies ``` npm install```
+- Run development server ``` npm run dev```
+- Visit ``` http://localhost:3000/```
 
-## Deploy your own
+# Uses
+- NextJS v11.1
+- Tailwindcss v2.2
+- [Heroicons](https://heroicons.com/)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# Credits
+- [Undraw](https://undraw.co/) for illustrations.
+- [Unsplash](https://unsplash.com/) for images.
